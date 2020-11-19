@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "counties",
+  "info": {
+    "name": "county"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "area": {
+      "type": "decimal"
+    },
+    "capital": {
+      "type": "string"
+    }
+  }
+}
