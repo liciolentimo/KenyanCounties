@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sub-counties",
+      "handler": "sub-county.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sub-counties/count",
+      "handler": "sub-county.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sub-counties/:id",
+      "handler": "sub-county.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sub-counties",
+      "handler": "sub-county.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sub-counties/:id",
+      "handler": "sub-county.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sub-counties/:id",
+      "handler": "sub-county.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

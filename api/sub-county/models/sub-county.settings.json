@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_counties",
+  "info": {
+    "name": "sub-county"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "county": {
+      "via": "sub_counties",
+      "model": "county"
+    }
+  }
+}
