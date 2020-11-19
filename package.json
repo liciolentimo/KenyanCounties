@@ -2,7 +2,7 @@
   "name": "kenyan-counties",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "REST API to show Kenyan counties and their respective sub-counties",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "strapi-utils": "3.3.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Licio Lentimo"
   },
   "strapi": {
     "uuid": "75041da3-cf58-4e42-91ac-1ae3ee7b2f6d"

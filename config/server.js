@@ -7,3 +7,5 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+app.listen(process.env.PORT || 1337);
